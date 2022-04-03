@@ -29,13 +29,13 @@ class MyHomePage extends StatelessWidget {
           children: [
             Container(
               width: double.infinity,
-              child: Card(
+              child: const Card(
                 color: Colors.amber,
                 child: Text('Chart here!'),
                 elevation: 5,
               ),
             ),
-            Card(
+            const Card(
               color: Colors.red,
               child: Text('List of text'),
             ),
